@@ -1,0 +1,7 @@
+node_modules
+.vscode
+dist
+typings
+**/*.scss,
+**/*.css
+qt.config.js
