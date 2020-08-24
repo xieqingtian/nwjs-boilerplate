@@ -22,8 +22,8 @@
     "dependencies": {
         "@ant-design/icons": "^4.2.2",
         "@reduxjs/toolkit": "^1.4.0",
-        "antd": "^4.5.4",
-        "axios": "^0.19.2",
+        "antd": "^4.6.0",
+        "axios": "^0.20.0",
         "babel-polyfill": "^6.26.0",
         "lodash": "^4.17.20",
         "nw": "0.14.7",
