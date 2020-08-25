@@ -15,6 +15,7 @@ module.exports = {
         },
         build: {
             nwVersion: pkgJson.dependencies.nw,
+            packed: true,
             appId: 'com.speakin.nw-boilerplate',
             languages: ['SimpChinese'],
             output: '../release/',
@@ -28,6 +29,9 @@ module.exports = {
             },
             win: {
                 icon: './logo.ico',
+                productName: pkgJson.name,
+                companyName: 'Speakin',
+                copyright: 'copyright',
             },
         },
     },
